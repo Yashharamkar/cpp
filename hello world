@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout<<"yash haramkar";
+	return 0;
+}
