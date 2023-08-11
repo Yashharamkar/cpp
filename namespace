@@ -30,6 +30,8 @@ int main() {
 	cout<<"yash";
 	return 0;
 }
+
+:: called as scope resolutions
                 
  
  
