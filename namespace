@@ -1,0 +1,35 @@
+namespace 
+ when we are having  file or module containing same method name then compiler get confused 
+ which to include so,we use name space for understanding purpose
+ 
+ 
+ eg- logic module have function login() and signup module have function login()
+ both are different but name are same include it in program become difficut some time 
+ so we use as
+                logic::login()
+                signup:: login()
+                to reduce confusion
+
+but in standard code we use standard file containing every thing
+so instead of  using module name every time we used it as "using namespace std"
+
+#include <iostream>
+
+
+int main() {
+    	std:: cout<<"yash haramkar";
+    	std:: cout<<"yash";
+	return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout<<"yash haramkar";
+	cout<<"yash";
+	return 0;
+}
+                
+ 
+ 
