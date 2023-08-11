@@ -1,0 +1,7 @@
+#include <cstdio>
+using namespace std;
+
+int main() {
+	puts("yash haramkar");
+	return 0;
+}
